@@ -8,6 +8,7 @@ opt.number = true
 opt.relativenumber = true
 opt.ignorecase = true
 opt.smartcase = true
+opt.clipboard = "unnamedplus"
 
 vim.g.mapleader = " "
 
