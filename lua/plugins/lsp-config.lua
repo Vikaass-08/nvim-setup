@@ -35,6 +35,9 @@ return {
       lspconfig.tsserver.setup({
         capabilities = capabilities,
       })
+      lspconfig.tailwindcss.setup({
+        capabilities = capabilities,
+      })
       lspconfig.purescriptls.setup({
         capabilities = capabilities,
         settings = {
