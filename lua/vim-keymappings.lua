@@ -26,3 +26,8 @@ local keymap = vim.keymap.set
 -- comment or uncomment the code 
 vim.api.nvim_set_keymap("n", "<C-_>", "gcc", {noremap=false})
 vim.api.nvim_set_keymap("v", "<C-_>", "gcc", {noremap=false})
+
+
+-- Move the selected Line up or down
+keymap("v", "J", ":m '>+1<CR>gv=gv", options)
+keymap("v", "K", ":m '<-2<CR>gv=gv", options)
