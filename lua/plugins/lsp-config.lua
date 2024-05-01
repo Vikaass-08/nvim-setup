@@ -70,8 +70,6 @@ return {
         root_dir = lsputil.find_git_ancestor,
       })
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-      vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
-      vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
       vim.keymap.set("n", "<leader>ga", vim.lsp.buf.code_action, {})
     end,
   },
